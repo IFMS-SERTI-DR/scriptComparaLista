@@ -4,7 +4,7 @@ import pandas as pd
 
 # carregar arquivos Excel
 members = pd.read_excel("members.xlsx") #arquivo baixado do e-mail serti (admin) para conferir se todos os usuários estão na lista do thiago
-aniversariantes = pd.read_excel("aniversariantes.xlsx") #arquivo enviado pelo Thiago
+aniversariantes = pd.read_excel("aniversariantes.xlsx") #arquivo enviado pelo COGEP
 
 # MOSTRAR COLUNAS (pra conferir nomes)
 print("Colunas MEMBERS:", members.columns)
